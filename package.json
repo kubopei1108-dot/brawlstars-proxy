@@ -1,1 +1,24 @@
-
+{
+  "name": "brawlstars-proxy",
+  "version": "1.0.0",
+  "description": "Brawl Stars API Proxy Server for GAS",
+  "main": "proxy-server.js",
+  "scripts": {
+    "start": "node proxy-server.js",
+    "dev": "nodemon proxy-server.js"
+  },
+  "keywords": [
+    "brawlstars",
+    "proxy",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
